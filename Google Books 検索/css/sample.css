@@ -1,0 +1,90 @@
+body {
+  margin: 0;
+  padding: 0;
+  text-align: left;
+  font-size: 16px;
+  background-size: cover;
+}
+
+header {
+  border-bottom: 1px solid #ccc;
+  text-align: center;
+  color: #fff;
+}
+
+h1{
+  font-size: 45px;
+  cursor: pointer;
+}
+
+p {
+  font-size: 100%;
+  text-align: center;
+}
+
+#keyword{
+  width: 350px;
+}
+
+#readbook:hover{
+  cursor: pointer;
+  background-color: gray;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+#content{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.result {
+  background-color: antiquewhite;
+  width: 33%;
+  margin: 60px auto;
+  opacity: 0.8;
+}
+
+img{
+  padding: 10px 0 0;
+  height: 165px;
+  opacity: 1.0;
+}
+
+dl {
+  border-top: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+  padding: 15px 0;
+  opacity: 1.0;
+}
+
+/* dl をフレックスコンテナにする */
+.result dl {
+  display: flex;
+  flex-wrap: wrap;
+  height: 138px;
+  overflow-y: scroll;
+}
+
+.result dt {
+  width: 25%;
+  margin-bottom: 10px;
+  text-align: right;
+}
+
+.result dd {
+  width: 75%;
+  margin-inline-start: 0;
+  margin-bottom: 10px;
+}
+
+
+textarea{
+  margin: 3%;
+  width: 30%;
+  height: 30px;
+  font-size:50%;
+  box-shadow: 3px 3px 3px 3px #555;
+}
